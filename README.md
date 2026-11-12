@@ -10,7 +10,7 @@ cameras and materials, and give them behavior with Construct-style event sheets 
 
 ## Download
 
-Get the latest version from the [Releases page](https://github.com/DFairGamz/GameCraft/releases/latest):
+Get the latest version from the [Releases page](https://github.com/VibeCodedSoftware/GameCraft/releases/latest):
 
 | File | What it is |
 |---|---|
