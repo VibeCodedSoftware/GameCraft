@@ -1,0 +1,7 @@
+﻿DungeonBound demo assets
+
+Level, wizard character and hearts: by the GameCraft project owner.
+Stone textures (broken-down-stonework_*, sloppy-mortar-stone-wall_*, also packed in DungeonBound_4.blend):
+pixelated and recoloured from ambientCG "Bricks089" and "PavingStones131" (https://ambientcg.com),
+CC0 1.0 Universal (public domain).
+PublicPixel.ttf: "Public Pixel" by GGBotNet, CC0 1.0 Universal (public domain), https://ggbot.net.

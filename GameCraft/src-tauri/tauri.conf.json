@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "GameCraft",
+  "version": "1.0.0",
+  "identifier": "com.craftapps.gamecraft",
+  "build": {
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "GameCraft",
+        "width": 1440,
+        "height": 900,
+        "minWidth": 1024,
+        "minHeight": 640,
+        "maximized": true,
+        "dragDropEnabled": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": false,
+    "publisher": "CraftApps",
+    "copyright": "CraftApps",
+    "shortDescription": "GameCraft visual game editor",
+    "longDescription": "GameCraft: a visual game editor with event sheets, blocks, Blender-style lights and cameras, and native .blend import.",
+    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/icon.png", "icons/icon.ico"]
+  }
+}

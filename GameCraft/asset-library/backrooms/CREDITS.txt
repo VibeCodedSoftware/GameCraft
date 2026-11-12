@@ -1,0 +1,6 @@
+﻿Backrooms demo assets
+
+Level, rooms, items and the monster: by the GameCraft project owner.
+Wallpapers (wallpapers/bw_*.png) and the grunge/stain map (wallpapers/grunge_stains.png): drawn procedurally
+for GameCraft, original work, released under GameCraft's license. The same pictures are packed in
+Backrooms_V10.blend in place of the earlier third-party wallpapers and grunge texture.
