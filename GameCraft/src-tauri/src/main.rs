@@ -7,8 +7,12 @@ use std::path::PathBuf;
 
 fn main() {
     let exe_dir = std::env::current_exe().ok().and_then(|p| p.parent().map(PathBuf::from)).unwrap_or_default();
-    // Read-only content ships next to the .exe; when run from the build folder, use the source tree.
+    // Read-only content ships next to the .exe; a development build run from the build folder uses the source
+    // tree. (Release builds don't record the source folder, so no local path ends up in the program.)
+    #[cfg(debug_assertions)]
     let source = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("..");
+    #[cfg(not(debug_assertions))]
+    let source = exe_dir.clone();
     let res = |name: &str| {
         let p = exe_dir.join(name);
         if p.exists() { p } else { source.join(name) }
